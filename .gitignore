@@ -1,0 +1,6 @@
+# variables.tf
+# ec2/main.tf
+terraform.tfstate
+*.terraform
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
