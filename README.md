@@ -8,7 +8,7 @@ A Credit card processing app using SQS and Lambda. This app takes requests from 
 ### Cloudwatch
 ## Create the terraform file
 - Create the SQS and assign a role to it. The role needs to give it all SQS permissions
-- Create an SNS to receice output that isn't processed
+- Create an SNS to receive output that isn't processed
 - Create the lambda on the console and connect the input to be SQS and SNS to received the unproccessed output.
 ## Message watch
 - Check on cloudwatch to confirm if the message was received by lambda.
