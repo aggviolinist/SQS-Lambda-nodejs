@@ -1,2 +1,2 @@
 # SQS-Lambda-nodejs
-A Credit card processing app using SQS and Lambda that polls credit card request queues using SQS. The app also has a transactional processing lambda that processes the queue and handles how its output 
+A Credit card processing app using SQS and Lambda. This app takes requests from users and uses SQS to queue those credit card requests. It then uses lambda to process those transactions from the queue.
